@@ -1,0 +1,39 @@
+{
+  "name": "myvidios",
+  "version": "1.0.0",
+  "description": "Demo YoutubeClone",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [
+    "JavaScript",
+    "Mongoos",
+    "MongoDB",
+    "React"
+  ],
+  "author": "Parth Chavda",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.4"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.0.0",
+    "cloudinary-build-url": "^0.2.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "js-tiktoken": "^1.0.10",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.1",
+    "mongoose-aggregate-paginate-v2": "^1.0.7",
+    "multer": "^1.4.5-lts.1",
+    "openai-gpt-token-counter": "^1.1.0"
+  }
+}
