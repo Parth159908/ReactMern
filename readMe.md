@@ -1,4 +1,4 @@
-This is the backend for the Demo MERN application using Node.js, Express, and Mongoose.
+This is the backend of MERN application using Node.js, Express, and Mongoose.
 
 In the `src` controllers, we've utilized various packages. For authentication, we've employed JWT tokens, used cookie-parser to store cookies, connected to Cloudinary for cloud services, and utilized Multer for storing multipart form data locally, among other packages.
 
@@ -26,3 +26,5 @@ To run the project locally, follow these steps:
 3. Install other dependencies like Express, Mongoose, MongoDB, Nodemon, `mongoose-aggregate-paginate-v2` for pagination, Multer for handling multipart form data, Bcrypt for password encryption and decryption, Cloudinary, `cloudinary-build-url`, `cookie-parser` for storing access tokens in cookies, CORS for handling Google's CORS policy, `dotenv` for configuring the environment file, and `jsonwebtoken (JWT)` for generating JWT tokens for authentication.
 
 After installing dependencies, configure your environment file with your API keys and database connection string. Then, run the command `npm run start` to start your local server connected to MongoDB. You can test your API in Postman and other cross-platform tools.
+
+!!!! Happy Coding !!!!
